@@ -1,0 +1,31 @@
+/*estilos de mobile*/
+.header-container{
+    background-color: $secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:1.5rem ;
+        .nav-bar{
+                .menu{
+                    display: flex;
+                    gap: 0.7rem;
+                    list-style: none;
+                        li{
+                            font-size: 1.2em;
+                            a{
+                            text-decoration: none;
+                            color: $tertiary-color;
+                            }
+                        }  
+                }
+            }
+        }
+/* Estilos para desktop*/
+@media screen and (min-width:1100px) {
+    .imagen-header{
+        margin-left: 100px;
+    }
+    .nav-bar{
+        margin-right: 100px;
+    }
+}

@@ -1,0 +1,24 @@
+
+@import "variables";
+@import "header";
+@import "main";
+@import "formulario";
+@import "footer";
+
+.img{
+    border-radius: 5%;
+    width: 100%;
+    height: 50%;
+}
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $primary-color;
+}
+
